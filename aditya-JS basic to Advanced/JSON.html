@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var prsn = new Object();
+
+      prsn.name = "Alex";
+      prsn.age = 26;
+
+      var edu = new Object();
+
+      edu.std = "MBA";
+      edu.pYear = 2019;
+
+      var emp = new Object();
+
+      emp.cName = "IBM";
+      emp.sal = 60000;
+
+      var allInfo = new Object();
+      allInfo.prsn = prsn;
+      allInfo.edu = edu;
+      allInfo.emp = emp;
+
+      document.write(JSON.stringify(allInfo));
+      document.write(allInfo.edu.std);
+    </script>
+  </body>
+</html>

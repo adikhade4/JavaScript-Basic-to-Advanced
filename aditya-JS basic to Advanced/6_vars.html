@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var sName = "Alex";
+      document.write("Stud Name : " + sName);
+
+      var sNames = ["Alex", "Sai", "Ali"];
+      document.write("<hr>");
+      document.write("Stud Names : " + sNames);
+      document.write("<br>Stud Name : " + sNames[1]);
+
+      document.write("<hr>");
+      var sInfo = {
+        name: "Alex",
+        no: 10,
+        isPass: true
+      };
+      document.write("Stud Info : " + sInfo);
+      document.write("<br>Stud Info : " + sInfo.name);
+
+      document.write("<hr>");
+      var sData = [
+        {
+          name: "Alex",
+          no: 101,
+          isPass: true
+        },
+        {
+          name: "Ali",
+          no: 102,
+          isPass: false
+        },
+        {
+          name: "Sai",
+          no: 103,
+          isPass: true
+        }
+      ];
+      document.write("SData : " + sData);
+      document.write("<br>SData : " + sData[1].name);
+    </script>
+  </body>
+</html>

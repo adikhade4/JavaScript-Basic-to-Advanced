@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="demo">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+      laborum? Itaque minus rem, voluptatum quas, a ducimus libero cupiditate
+      assumenda similique ullam perferendis veritatis earum neque modi, dicta
+      iste rerum!
+    </p>
+
+    <script>
+      document.getElementById("demo").align = "right";
+      document.getElementById("demo").style.color = "red";
+      var text = document.getElementById("demo").innerHTML;
+
+      document.write("<h1>" + text + "</h1>");
+
+      document.getElementById("demo").innerHTML = "HelloThere..";
+    </script>
+  </body>
+</html>
